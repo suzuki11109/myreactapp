@@ -1,5 +1,10 @@
 ## Usage
 
+### download dependencies
+```
+npm install
+```
+
 ### run server
 
 ```
