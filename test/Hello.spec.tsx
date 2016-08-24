@@ -1,9 +1,13 @@
+import * as React from "react";
 import {expect} from "chai";
+import {shallow} from "enzyme";
 
-describe("sample test", () => {
-  it("setup", () => {
-    expect(true).to.be.false;
+import Hello from "../src/Hello";
+
+describe("Hello", () => {
+  it("renders Hello", () => {
+    let component = shallow(<Hello />);
+
+    expect(component.find('h1')).to.be.exist;
   });
 });
-
-

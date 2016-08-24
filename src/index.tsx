@@ -1,11 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-class Hello extends React.Component<any, any> {
-  render() {
-    return <h1>Hello</h1>;
-  }
-}
+import Hello from "./Hello";
 
 ReactDOM.render(<Hello />, document.getElementById("app"));
 
