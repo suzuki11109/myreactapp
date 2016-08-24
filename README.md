@@ -6,7 +6,7 @@
 npm run dev
 ```
 
-and go to http://localhost:8080/
+and go to [http://localhost:8080](http://localhost:8080)
 
 
 ### run tests
