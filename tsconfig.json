@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "outDir": "dist"
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useCache": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
