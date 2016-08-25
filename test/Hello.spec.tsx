@@ -8,6 +8,6 @@ describe("Hello", () => {
   it("renders Hello", () => {
     let component = shallow(<Hello />);
 
-    expect(component.find('h1')).to.be.exist;
+    expect(component).to.contain(<h1>Hello</h1>);
   });
 });
